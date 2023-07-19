@@ -3,6 +3,8 @@ import { ConfigModule } from '@nestjs/config';
 import { SequelizeModule } from '@nestjs/sequelize';
 import { GraphQLModule } from '@nestjs/graphql';
 import { ApolloDriverConfig, ApolloDriver } from '@nestjs/apollo';
+import { PostModule } from './posts/posts.module';
+import { UserModule } from './users/users.module';
 
 @Module({
   imports: [
@@ -18,6 +20,8 @@ import { ApolloDriverConfig, ApolloDriver } from '@nestjs/apollo';
       autoSchemaFile: 'schema.gql',
       installSubscriptionHandlers: true,
     }),
+    UserModule,
+    PostModule,
   ],
 })
 export class AppModule {}
