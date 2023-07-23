@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useAuth, useChangePassword } from "../../../../hooks";
-import Button from "../../../atoms/button/button";
-import { InputTypes } from "../../../atoms/form/input";
+import Button from "../../../atoms/button/Button";
+import { InputTypes } from "../../../atoms/form/Input";
 import InputGroup from "../../../molecules/form/InputGroup";
 import { ErrorAlert } from "../../../molecules/notification/Alert";
 

@@ -1,6 +1,6 @@
 import React, { HTMLProps } from "react";
-import Label from "../../atoms/form/label";
-import Input, { InputTypes } from "../../atoms/form/input";
+import Label from "../../atoms/form/Label";
+import Input, { InputTypes } from "../../atoms/form/Input";
 
 interface InputGroupProps {
   label: {

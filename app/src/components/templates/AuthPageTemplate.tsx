@@ -1,4 +1,4 @@
-import Container from "../atoms/layout/container";
+import Container from "../atoms/layout/Container";
 import FormHeading, { FormHeadingProps } from "../molecules/form/FormHeading";
 import SignUpForm from "../organisms/form/signUpForm";
 import SignInForm from "../organisms/form/SignInForm";

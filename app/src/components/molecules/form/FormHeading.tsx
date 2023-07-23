@@ -1,5 +1,5 @@
 import { H2 } from "../../atoms/typography/headings";
-import Link from "../../atoms/link/link";
+import Link from "../../atoms/link/Link";
 
 export interface FormHeadingProps {
   headingText: string;

@@ -3,8 +3,8 @@ import { useAuth, useRequestPasswordChange } from "../../../../hooks";
 import { useNavigate } from "react-router-dom";
 import { ErrorAlert } from "../../../molecules/notification/Alert";
 import InputGroup from "../../../molecules/form/InputGroup";
-import { InputTypes } from "../../../atoms/form/input";
-import Button from "../../../atoms/button/button";
+import { InputTypes } from "../../../atoms/form/Input";
+import Button from "../../../atoms/button/Button";
 
 const RecoveryPasswordForm = ({
   recoveryPassword,

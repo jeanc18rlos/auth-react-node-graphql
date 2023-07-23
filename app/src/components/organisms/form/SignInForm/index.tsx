@@ -3,9 +3,9 @@ import { useAuth, useLogin } from "../../../../hooks";
 import { useNavigate } from "react-router-dom";
 import { ErrorAlert } from "../../../molecules/notification/Alert";
 import InputGroup from "../../../molecules/form/InputGroup";
-import { InputTypes } from "../../../atoms/form/input";
-import Link from "../../../atoms/link/link";
-import Button from "../../../atoms/button/button";
+import { InputTypes } from "../../../atoms/form/Input";
+import Link from "../../../atoms/link/Link";
+import Button from "../../../atoms/button/Button";
 
 const SignInForm = ({
   login,
